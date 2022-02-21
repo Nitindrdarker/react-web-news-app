@@ -9,7 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 export default class App extends Component {
-  apiKey = process.env.REACT_APP_NEWS_API
+  apiKey = "ae385e5dc9de448c805fce433605ba53"
   state = {
     progress : 0
   }
